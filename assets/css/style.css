@@ -19,11 +19,11 @@ body {
     position: relative;
     padding: 10px 15px;
     font-size: 18px;
-    color: black;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar-nav .nav-item .nav-link:hover {
-    color: #a52a2a;
+    color:black;
 }
 .navbar-nav .nav-item .nav-link::after {
     content: '';
