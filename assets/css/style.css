@@ -178,6 +178,7 @@ body {
 .s-card-title{
     font-size: larger;
     font-weight: bold;
+    color:black;
 }
 .p-card-body {
     height: 200px;
@@ -192,7 +193,7 @@ body {
 }
 .skills .card, .projects .card {
     background-color: white;
-    color: Black;
+    color: black;
 }
 .p-card {
     background-color: #f4d7d7;
