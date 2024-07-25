@@ -161,7 +161,7 @@ body {
     justify-content: center;
 }
 .card-title,h1:hover {
-    color: white;
+    color: #666;
 }
 .card-body {
     margin-top: 20%;
