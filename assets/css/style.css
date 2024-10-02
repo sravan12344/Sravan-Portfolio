@@ -344,3 +344,38 @@ body {
         margin: 0 10px;
     }
 }
+.contact {
+    display: flex;
+    flex-direction: column; /* Stack elements */
+    align-items: center; /* Center items */
+    margin-top: 50px;
+}
+
+.contact button {
+    margin-top: 10px; /* Add margin to separate buttons */
+}
+
+@media (max-width: 767.98px) {
+    .contact {
+        flex-direction: column; /* Ensure column layout on mobile */
+        align-items: center; /* Center items */
+    }
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping of items */
+    justify-content: space-between; /* Add space between cards */
+    margin-top: 50px;
+}
+
+.skills .card {
+    flex: 1 1 300px; /* Flex-grow, flex-shrink, flex-basis */
+    margin: 10px; /* Add margin between cards */
+}
+
+@media (max-width: 767.98px) {
+    .skills .card {
+        flex-basis: 100%; /* Stack cards on mobile */
+        margin: 5px 0; /* Adjust margin for mobile */
+    }
+}
