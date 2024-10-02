@@ -379,3 +379,22 @@ body {
         margin: 5px 0; /* Adjust margin for mobile */
     }
 }
+.p-card-body {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    align-items: center; /* Center the content horizontally */
+}
+
+.p-view {
+    width: 100%; /* Make the button take the full width of the card */
+    max-width: 200px; /* Limit the maximum width for better design */
+    margin-top: 10px; /* Add margin for spacing */
+    padding: 10px; /* Add padding for touch targets */
+    text-align: center; /* Center the text */
+}
+
+@media (max-width: 767.98px) {
+    .p-view {
+        max-width: 100%; /* Full width on mobile */
+    }
+}
